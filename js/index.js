@@ -13,7 +13,7 @@ $.get(
                 var card_body=document.createElement("div");
                 card_body.className="card-body";
                 card_body.innerHTML=`
-                <p><strong>Nombre:</strong> ${person.name}</p>
+                <p><strong>Nombrecito:</strong> ${person.name}</p>
                 <p><strong>Altura:</strong> ${person.height}</p>
                 <p><strong>Peso:</strong> ${person.mass}</p>
                 <p><strong>Cabello:</strong> ${person.hair_color}</p>
